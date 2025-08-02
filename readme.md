@@ -1,78 +1,141 @@
-# Java Coding Practice Repository
+# java-coding-practice 🚀  
 
-Welcome to the `java-coding-practice` repository! 🚀  
-This is a structured collection of Java programs organized by topic. It’s designed for revision, problem-solving, and mastering both fundamentals and advanced concepts of Java.
-
----
-
-## 📂 Topics Covered
-
-Below is the list of all folders and what they contain:
-
-### 🧱 Core Java
-
-- **Abstract Class** – Abstract methods, base class implementation, and real-world examples.
-- **ArrayList** – Use of Java’s dynamic array structure and generic types.
-- **arrays** – Classic problems on arrays: sorting, searching, manipulation.
-- **Class and Object** – Core OOP building blocks including attributes and behavior.
-- **EnumSet** – Specialized Set implementations for enums, including best practices.
-- **Exception Handling** – Try-catch, throws, custom exceptions, and runtime flow.
-- **File Handling** – File input/output using `File`, `BufferedReader`, and NIO.
-- **HashMap** – Key-value storage, collision handling, and iterations.
-- **HashSet** – Unique collections, hashing behavior, and performance tests.
-- **Inheritance** – Reusability of code via extends, super keyword, and multilevel inheritance.
-- **Interface** – Full abstraction, polymorphism, and multiple inheritance.
-
-### 🔥 Intermediate & Functional Programming
-
-- **Lambda Expressions** – Anonymous functions and functional programming with streams.
-- **linked list** – Single/double circular linked list operations.
-- **Logic Building** – Pure logic questions to test your brain 🧠.
-- **Looping Statement** – Loops (`for`, `while`, `do-while`) with condition-based examples.
-- **Math** – Number theory, factorials, prime checks, GCD, LCM, etc.
-- **Method Overloading** – Compile-time polymorphism through overloaded methods.
-- **Method With VarArgs** – Flexible argument count using variable-length arguments.
-- **Multithreading** – Thread creation, synchronization, race conditions, and deadlocks.
-
-### 🧠 Problem Solving & DSA
-
-- **Problem Solving** – Mixed bag of real-world and algorithmic Java problems.
-- **Queue** – FIFO structure using `Queue`, `LinkedList`, and `PriorityQueue`.
-- **Recursion** – Recursive methods, base cases, and backtracking principles.
-- **Stack** – LIFO structure using `Stack` class and applications like expression evaluation.
-- **Strings** – Palindromes, string reversal, substrings, character frequencies, and more.
-
-### 🌲 Tree & Map
-
-- **Binary Tree** – Node-based structures, traversal (in/pre/post), and construction.
-- **TreeMap** – Sorted maps using red-black tree implementation.
-- **Treeset** – Sorted set with unique elements.
+**A centralized repository for mastering Java concepts through topic-wise code organization**  
+**Author**: Brajesh Prajapati (📧 prajapatibrajesh003@gmail.com)  
+**All rights reserved © 2k25**
 
 ---
 
-## 📁 Project Structure
+## 📚 Overview
 
-Each folder contains:
-- `.java` source files
-- Optionally: input/output samples, problem statements
-- Subfolders or topics where needed
-- You can navigate and run them in any Java IDE like IntelliJ or VS Code.
+This is my all-in-one Java problem-solving and concept-practice repo, structured for efficiency, reusability, and clarity. It brings together all topic-based Java projects into one monorepo — perfect for focused revision, interview prep, and collaborative development.
 
 ---
 
-## 🧹 .gitignore (already included)
+## 🧱 Project Structure
 
-The `.gitignore` ensures that:
-- IDE-specific files (like `.iml`, `.idea/`)
-- Compiled `.class` files
-- OS junk (e.g., `Thumbs.db`, `.DS_Store`)
-are excluded from Git tracking.
+Each subfolder in this repository represents a **single Java concept or topic**, and includes:
+
+- `.java` solution files
+- A dedicated `README.md` with topic description and purpose
+- Practice problems, real-world code snippets, and concept highlights
+
+✅ This layout is ideal for both **learning** and **quick referencing**.
 
 ---
 
-## 🔧 Usage
+## 🗂️ Topics Covered
 
-1. Clone this repo:
+Here's a list of Java concepts implemented as folders:
+
+- Abstract Class
+- Array
+- ArrayList
+- Classes-Objects
+- EnumSet
+- Exception-Handling
+- File-Handling
+- HashMap
+- HashSet
+- Inheritance
+- Interface
+- Lambda-Expressions
+- Method-Overloading-and-VarArgs
+- Multi-Threading
+- Queue
+- Recursion
+- Stack
+- String
+- TreeMap
+- TreeSet
+
+---
+
+## 📦 Archived Repositories
+
+The following individual repositories have been **archived** and merged into this monorepo for better scalability and maintenance:
+
+| 🔒 Archived Repository | 📁 New Directory in Monorepo |
+|------------------------|-----------------------------|
+| [Abstract-Class](https://github.com/BrajeshPrajapati003/Abstract-Class) | `Abstract Class` |
+| [Method-Overloading-and-VarArgs](https://github.com/BrajeshPrajapati003/Method-Overloading-and-VarArgs) | `Method-Overloading-and-VarArgs` |
+| [TreeMap](https://github.com/BrajeshPrajapati003/TreeMap) | `TreeMap` |
+| [TreeSet](https://github.com/BrajeshPrajapati003/TreeSet) | `TreeSet` |
+| [Queue](https://github.com/BrajeshPrajapati003/Queue) | `Queue` |
+| [EnumSet](https://github.com/BrajeshPrajapati003/EnumSet) | `EnumSet` |
+| [Lambda-Expressions](https://github.com/BrajeshPrajapati003/Lambda-Expressions) | `Lambda-Expressions` |
+| [Stack](https://github.com/BrajeshPrajapati003/Stack) | `Stack` |
+| [File-Handling](https://github.com/BrajeshPrajapati003/File-Handling) | `File-Handling` |
+| [Interface](https://github.com/BrajeshPrajapati003/Interface) | `Interface` |
+| [Array](https://github.com/BrajeshPrajapati003/Array) | `Array` |
+| [ArrayList](https://github.com/BrajeshPrajapati003/ArrayList) | `ArrayList` |
+| [Recursion](https://github.com/BrajeshPrajapati003/Recursion) | `Recursion` |
+| [String](https://github.com/BrajeshPrajapati003/String) | `String` |
+| [Inheritance](https://github.com/BrajeshPrajapati003/Inheritance) | `Inheritance` |
+| [Classes-Objects](https://github.com/BrajeshPrajapati003/Classes-Objects) | `Classes-Objects` |
+| [Multi-Threading](https://github.com/BrajeshPrajapati003/Multi-Threading) | `Multi-Threading` |
+| [HashSet](https://github.com/BrajeshPrajapati003/HashSet) | `HashSet` |
+| [HashMap](https://github.com/BrajeshPrajapati003/HashMap) | `HashMap` |
+| [Exception-Handling](https://github.com/BrajeshPrajapati003/Exception-Handling) | `Exception-Handling` |
+
+> 📝 All content is now under `java-coding-practice` and the above repositories are preserved only for legacy/version control.
+
+---
+
+## 💡 How to Use
+
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/YourUsername/java-coding-practice.git
-   cd java-coding-practice
+   git clone https://github.com/BrajeshPrajapati003/java-coding-practice.git
+
+2. Open it in VS Code or IntelliJ IDEA
+
+
+3. Navigate to any subdirectory to explore specific concepts
+
+
+4. Run the .java files, tweak the code, add your notes!
+
+
+
+
+---
+
+## 🧰 Tools & Tech Stack
+
+1. Java 17+
+
+2. Git & GitHub CLI
+
+3. IDEs: IntelliJ IDEA, VS Code
+
+4. GitHub Actions (Coming Soon)
+
+
+
+---
+
+## 🛠️ Upcoming Features
+
+[ ] Add README templates for each topic with theory and code explanation
+
+[ ] CI/CD via GitHub Actions for syntax validation
+
+[ ] Interactive Java playground (hosted)
+
+
+
+---
+
+## 📫 Contact
+
+📨 Email: prajapatibrajesh003@gmail.com
+🔗 LinkedIn: Connect with me
+🌟 If you like this repo, don’t forget to star it!
+
+
+---
+
+“Code to learn, learn to lead.” — Brajesh Prajapati
+
+---
