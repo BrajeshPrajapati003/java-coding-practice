@@ -1,0 +1,27 @@
+# Ignore compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Eclipse/IntelliJ/VS Code project files
+*.iml
+.idea/
+*.log
+.vscode/
+*.classpath
+*.project
+.settings/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Backup files
+*.bak
+*.tmp

@@ -1,0 +1,2 @@
+*.java text eol=lf
+# This tell Git: "Always use Unix-style LF endings for .java files, even on Windows."
