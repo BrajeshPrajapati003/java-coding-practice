@@ -1,5 +1,7 @@
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Classroom{
 
@@ -44,11 +46,62 @@ public class Classroom{
         }
     }
 
+    // Inefficient BFS
+
+    public static void bfs(ArrayList<Edge>[] graph, int V){
+        Queue<Integer> q = new LinkedList<>();
+        boolean[] vis = new boolean[V];
+        q.add(0);
+
+        while(!q.isEmpty()){
+            int curr = q.remove();
+            if(vis[curr] == false){
+                System.out.print(curr + " ");
+                vis[curr] = true;
+
+                for(int i=0; i<graph[curr].size(); i++){
+                    Edge e = graph[curr].get(i);
+                    q.add(e.dest);
+                }
+            }
+        }
+        System.out.println();
+    }
+
+    // More Efficient BFS
+
+    public static void efficientBfs(ArrayList<Edge>[] graph, int start, int V){
+        Queue<Integer> q = new LinkedList<>();
+        boolean[] vis = new boolean[V];
+
+        q.add(start);
+        vis[start] = true; // Mark when enqueueing - key optimization
+
+        while(!q.isEmpty()){
+            int curr = q.remove();
+            System.out.print(curr + " ");
+            for(Edge e: graph[curr]){
+                if(!vis[e.dest]){
+                    vis[e.dest] = true;
+                    q.add(e.dest);
+                }
+            }
+        }
+        System.out.println();
+    }
+
     public static void main(String[] args) {
         int V = 4;
         ArrayList<Edge>[] graph = new ArrayList[V];
 
         createGraph(graph);
         printGraph(graph);
+        System.out.println();
+
+        System.out.println("Less Efficient BFS:");
+        bfs(graph, V);
+
+        System.out.println("More Efficient BFS:");
+        efficientBfs(graph, 0, V);
     }
 }
