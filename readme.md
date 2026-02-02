@@ -132,7 +132,7 @@ The following individual repositories have been **archived** and merged into thi
 📨 Email: prajapatibrajesh003@gmail.com
 🔗 LinkedIn: Connect with me
 🌟 If you like this repo, don’t forget to star it!
-
+Check out Brajesh Prajapati’s profile on LinkedIn https://in.linkedin.com/in/brajesh-prajapati
 
 ---
 
