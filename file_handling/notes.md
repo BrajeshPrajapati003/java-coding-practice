@@ -98,6 +98,19 @@ while((line = br.readLine()) != null){
 br.close();
 ```
 
+
+FileReader:
+- Reads one character at a time
+- Every read -> disk access (expensive)
+
+BufferedReader:
+- Uses an internal buffer (array in memory)
+- Reads chunks of data at once (not just full lines)
+- readline() is just a convenience method, not the reason it's faster
+
+Real reason it's faster: 
+**It minimizes expensive I/O operations by reducing disk access calls**
+
 **LEVEL 3:**
 
 from java.nio.file: Core classes:
@@ -159,4 +172,43 @@ public class DirectoryExample {
     }
 }
 ```
+
+**FILE vs PATH**
+
+FILE : blocking, old, basic
+
+PATH : non-blocking, scalable, production-ready
+
+**BLOCKING vs NON-BLOCKING**
+
+IO (FileReader) : waits until operation completes
+
+NIO : can continue execution
+
+This is why: NIO is used in high-performance systems (servers, Spring Boot, etc.)
+
+
+**read() vs readline()**
+
+read():
+  - low level parsing
+  - character-based
+  - returns ASCII (int) value
+  - -1 when file ends
+  - slow for large files
+  - fine control (you process every char)
+  - in FileReader class
+
+readline():
+- reads one full line at a time
+- returns string
+- returns null when file ends
+- faster (uses buffering internally)
+- in BufferedReader class
+- easy to use
+- real-world file reading
+
+Q: Why is readline faster?
+
+-> because it reduces disk I/O using buffering
 
